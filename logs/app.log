@@ -1,0 +1,13 @@
+2021-10-13 16:20:52,229 INFO c.e.s.SpringBatchProjectApplication [main] Starting SpringBatchProjectApplication using Java 11.0.11 on DESKTOP-GCHA5E7 with PID 21196 (C:\treinamentos\spring-batch-project\target\classes started by Diego Matté in C:\treinamentos\spring-batch-project)
+2021-10-13 16:20:52,231 INFO c.e.s.SpringBatchProjectApplication [main] No active profile set, falling back to default profiles: default
+2021-10-13 16:20:52,557 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropsConfig.config is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2021-10-13 16:20:52,663 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2021-10-13 16:20:52,921 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2021-10-13 16:20:53,010 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2021-10-13 16:20:53,070 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2021-10-13 16:20:53,128 INFO c.e.s.SpringBatchProjectApplication [main] Started SpringBatchProjectApplication in 1.316 seconds (JVM running for 2.169)
+2021-10-13 16:20:53,215 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{}]
+2021-10-13 16:20:53,240 INFO o.s.b.c.j.SimpleStepHandler [main] Step already complete or not restartable, so no action to execute: StepExecution: id=1, version=3, name=imprimeOlaStep, status=COMPLETED, exitStatus=COMPLETED, readCount=0, filterCount=0, writeCount=0 readSkipCount=0, writeSkipCount=0, processSkipCount=0, commitCount=1, rollbackCount=0, exitDescription=
+2021-10-13 16:20:53,247 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{}] and the following status: [COMPLETED] in 14ms
+2021-10-13 16:20:53,251 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2021-10-13 16:20:53,259 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
